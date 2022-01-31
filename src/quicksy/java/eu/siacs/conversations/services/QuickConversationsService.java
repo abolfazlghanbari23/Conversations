@@ -1,4 +1,4 @@
-package eu.siacs.conversations.services;
+package eu.siacs.rasan.services;
 
 
 import android.content.Intent;
@@ -42,22 +42,22 @@ import javax.net.ssl.SSLException;
 import javax.net.ssl.SSLHandshakeException;
 import javax.net.ssl.SSLPeerUnverifiedException;
 
-import eu.siacs.conversations.Config;
-import eu.siacs.conversations.android.PhoneNumberContact;
-import eu.siacs.conversations.crypto.sasl.Plain;
-import eu.siacs.conversations.entities.Account;
-import eu.siacs.conversations.entities.Contact;
-import eu.siacs.conversations.entities.Entry;
-import eu.siacs.conversations.http.HttpConnectionManager;
-import eu.siacs.conversations.utils.AccountUtils;
-import eu.siacs.conversations.utils.CryptoHelper;
-import eu.siacs.conversations.utils.PhoneNumberUtilWrapper;
-import eu.siacs.conversations.utils.SerialSingleThreadExecutor;
-import eu.siacs.conversations.utils.SmsRetrieverWrapper;
-import eu.siacs.conversations.xml.Element;
-import eu.siacs.conversations.xml.Namespace;
-import eu.siacs.conversations.xmpp.Jid;
-import eu.siacs.conversations.xmpp.stanzas.IqPacket;
+import eu.siacs.rasan.Config;
+import eu.siacs.rasan.android.PhoneNumberContact;
+import eu.siacs.rasan.crypto.sasl.Plain;
+import eu.siacs.rasan.entities.Account;
+import eu.siacs.rasan.entities.Contact;
+import eu.siacs.rasan.entities.Entry;
+import eu.siacs.rasan.http.HttpConnectionManager;
+import eu.siacs.rasan.utils.AccountUtils;
+import eu.siacs.rasan.utils.CryptoHelper;
+import eu.siacs.rasan.utils.PhoneNumberUtilWrapper;
+import eu.siacs.rasan.utils.SerialSingleThreadExecutor;
+import eu.siacs.rasan.utils.SmsRetrieverWrapper;
+import eu.siacs.rasan.xml.Element;
+import eu.siacs.rasan.xml.Namespace;
+import eu.siacs.rasan.xmpp.Jid;
+import eu.siacs.rasan.xmpp.stanzas.IqPacket;
 import io.michaelrocks.libphonenumber.android.Phonenumber;
 
 public class QuickConversationsService extends AbstractQuickConversationsService {

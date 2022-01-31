@@ -1,4 +1,4 @@
-package eu.siacs.conversations.services;
+package eu.siacs.rasan.services;
 
 import android.util.Log;
 
@@ -6,16 +6,16 @@ import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GoogleApiAvailabilityLight;
 import com.google.firebase.messaging.FirebaseMessaging;
 
-import eu.siacs.conversations.Config;
-import eu.siacs.conversations.R;
-import eu.siacs.conversations.entities.Account;
-import eu.siacs.conversations.utils.PhoneHelper;
-import eu.siacs.conversations.xml.Element;
-import eu.siacs.conversations.xml.Namespace;
-import eu.siacs.conversations.xmpp.Jid;
-import eu.siacs.conversations.xmpp.XmppConnection;
-import eu.siacs.conversations.xmpp.forms.Data;
-import eu.siacs.conversations.xmpp.stanzas.IqPacket;
+import eu.siacs.rasan.Config;
+import eu.siacs.rasan.R;
+import eu.siacs.rasan.entities.Account;
+import eu.siacs.rasan.utils.PhoneHelper;
+import eu.siacs.rasan.xml.Element;
+import eu.siacs.rasan.xml.Namespace;
+import eu.siacs.rasan.xmpp.Jid;
+import eu.siacs.rasan.xmpp.XmppConnection;
+import eu.siacs.rasan.xmpp.forms.Data;
+import eu.siacs.rasan.xmpp.stanzas.IqPacket;
 
 public class PushManagementService {
 

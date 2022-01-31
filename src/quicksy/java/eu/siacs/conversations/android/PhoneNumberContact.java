@@ -1,4 +1,4 @@
-package eu.siacs.conversations.android;
+package eu.siacs.rasan.android;
 
 import android.Manifest;
 import android.content.Context;
@@ -16,8 +16,8 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 
-import eu.siacs.conversations.Config;
-import eu.siacs.conversations.utils.PhoneNumberUtilWrapper;
+import eu.siacs.rasan.Config;
+import eu.siacs.rasan.utils.PhoneNumberUtilWrapper;
 import io.michaelrocks.libphonenumber.android.NumberParseException;
 
 public class PhoneNumberContact extends AbstractPhoneContact {

@@ -1,4 +1,4 @@
-package eu.siacs.conversations.ui.service;
+package eu.siacs.rasan.ui.service;
 
 import android.content.Context;
 

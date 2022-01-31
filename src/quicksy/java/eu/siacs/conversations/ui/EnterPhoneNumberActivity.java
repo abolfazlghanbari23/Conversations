@@ -1,4 +1,4 @@
-package eu.siacs.conversations.ui;
+package eu.siacs.rasan.ui;
 
 import android.app.AlertDialog;
 import android.content.Intent;
@@ -18,16 +18,16 @@ import org.jetbrains.annotations.NotNull;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 
-import eu.siacs.conversations.Config;
-import eu.siacs.conversations.R;
-import eu.siacs.conversations.databinding.ActivityEnterNumberBinding;
-import eu.siacs.conversations.entities.Account;
-import eu.siacs.conversations.services.QuickConversationsService;
-import eu.siacs.conversations.ui.drawable.TextDrawable;
-import eu.siacs.conversations.ui.util.ApiDialogHelper;
-import eu.siacs.conversations.utils.AccountUtils;
-import eu.siacs.conversations.utils.LocationProvider;
-import eu.siacs.conversations.utils.PhoneNumberUtilWrapper;
+import eu.siacs.rasan.Config;
+import eu.siacs.rasan.R;
+import eu.siacs.rasan.databinding.ActivityEnterNumberBinding;
+import eu.siacs.rasan.entities.Account;
+import eu.siacs.rasan.services.QuickConversationsService;
+import eu.siacs.rasan.ui.drawable.TextDrawable;
+import eu.siacs.rasan.ui.util.ApiDialogHelper;
+import eu.siacs.rasan.utils.AccountUtils;
+import eu.siacs.rasan.utils.LocationProvider;
+import eu.siacs.rasan.utils.PhoneNumberUtilWrapper;
 import io.michaelrocks.libphonenumber.android.NumberParseException;
 import io.michaelrocks.libphonenumber.android.PhoneNumberUtil;
 import io.michaelrocks.libphonenumber.android.Phonenumber;

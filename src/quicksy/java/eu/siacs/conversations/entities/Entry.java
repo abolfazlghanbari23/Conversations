@@ -1,4 +1,4 @@
-package eu.siacs.conversations.entities;
+package eu.siacs.rasan.entities;
 
 import android.util.Base64;
 
@@ -12,9 +12,9 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
-import eu.siacs.conversations.android.PhoneNumberContact;
-import eu.siacs.conversations.xml.Element;
-import eu.siacs.conversations.xmpp.Jid;
+import eu.siacs.rasan.android.PhoneNumberContact;
+import eu.siacs.rasan.xml.Element;
+import eu.siacs.rasan.xmpp.Jid;
 
 public class Entry implements Comparable<Entry> {
     private final List<Jid> jids;

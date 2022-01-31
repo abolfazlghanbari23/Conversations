@@ -1,4 +1,4 @@
-package eu.siacs.conversations.ui;
+package eu.siacs.rasan.ui;
 
 import android.content.Intent;
 import androidx.databinding.DataBindingUtil;
@@ -8,11 +8,11 @@ import android.view.View;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 
-import eu.siacs.conversations.R;
-import eu.siacs.conversations.databinding.ActivityEnterNameBinding;
-import eu.siacs.conversations.entities.Account;
-import eu.siacs.conversations.services.XmppConnectionService;
-import eu.siacs.conversations.utils.AccountUtils;
+import eu.siacs.rasan.R;
+import eu.siacs.rasan.databinding.ActivityEnterNameBinding;
+import eu.siacs.rasan.entities.Account;
+import eu.siacs.rasan.services.XmppConnectionService;
+import eu.siacs.rasan.utils.AccountUtils;
 
 public class EnterNameActivity extends XmppActivity implements XmppConnectionService.OnAccountUpdate {
 

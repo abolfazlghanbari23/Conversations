@@ -1,4 +1,4 @@
-package eu.siacs.conversations.services;
+package eu.siacs.rasan.services;
 
 import android.content.Intent;
 import android.util.Log;
@@ -8,8 +8,8 @@ import com.google.firebase.messaging.RemoteMessage;
 
 import java.util.Map;
 
-import eu.siacs.conversations.Config;
-import eu.siacs.conversations.utils.Compatibility;
+import eu.siacs.rasan.Config;
+import eu.siacs.rasan.utils.Compatibility;
 
 public class PushMessageReceiver extends FirebaseMessagingService {
 

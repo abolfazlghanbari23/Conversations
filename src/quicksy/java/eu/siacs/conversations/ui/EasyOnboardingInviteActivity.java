@@ -1,6 +1,6 @@
-package eu.siacs.conversations.ui;
+package eu.siacs.rasan.ui;
 
-import eu.siacs.conversations.entities.Account;
+import eu.siacs.rasan.entities.Account;
 
 public class EasyOnboardingInviteActivity {
     public static void launch(Account account, XmppActivity activity) {

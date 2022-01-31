@@ -1,4 +1,4 @@
-package eu.siacs.conversations.ui.service;
+package eu.siacs.rasan.ui.service;
 
 import android.content.Context;
 import android.os.Build;
@@ -8,8 +8,8 @@ import androidx.core.provider.FontRequest;
 import androidx.emoji.text.EmojiCompat;
 import androidx.emoji.text.FontRequestEmojiCompatConfig;
 
-import eu.siacs.conversations.Config;
-import eu.siacs.conversations.R;
+import eu.siacs.rasan.Config;
+import eu.siacs.rasan.R;
 
 public class EmojiService {
 

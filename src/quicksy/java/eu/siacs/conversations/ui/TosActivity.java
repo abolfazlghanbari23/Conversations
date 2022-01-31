@@ -1,4 +1,4 @@
-package eu.siacs.conversations.ui;
+package eu.siacs.rasan.ui;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -12,7 +12,7 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.ActionBar;
 
-import eu.siacs.conversations.R;
+import eu.siacs.rasan.R;
 
 public class TosActivity extends XmppActivity {
 

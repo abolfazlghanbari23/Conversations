@@ -1,4 +1,4 @@
-package eu.siacs.conversations.services;
+package eu.siacs.rasan.services;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -9,8 +9,8 @@ import android.util.Log;
 
 import com.google.common.base.Strings;
 
-import eu.siacs.conversations.Config;
-import eu.siacs.conversations.utils.Compatibility;
+import eu.siacs.rasan.Config;
+import eu.siacs.rasan.utils.Compatibility;
 
 public class SMSReceiver extends BroadcastReceiver {
 

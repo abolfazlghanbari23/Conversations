@@ -1,6 +1,6 @@
-package eu.siacs.conversations.utils;
+package eu.siacs.rasan.utils;
 
-import eu.siacs.conversations.ui.UriHandlerActivity;
+import eu.siacs.rasan.ui.UriHandlerActivity;
 
 public class ProvisioningUtils {
     public static void provision(UriHandlerActivity uriHandlerActivity, String result) {
